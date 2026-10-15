@@ -1,0 +1,41 @@
+# ---- Build output ----
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Oo]ut/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# ---- Compiler / test artifacts ----
+*.obj
+*.pdb
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ---- IDE / editors ----
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local SQLite database (runtime-generated) ----
+app.db
+app.db-shm
+app.db-wal
